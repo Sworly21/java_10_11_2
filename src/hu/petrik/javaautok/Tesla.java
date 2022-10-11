@@ -7,7 +7,7 @@ public class Tesla implements Auto{
     private double sebesseg;
     Random rnd = new Random();
 
-    public Tesla(double sebesseg) {
+    public Tesla() {
         this.sebesseg = rnd.nextDouble() * 61;
     }
 
